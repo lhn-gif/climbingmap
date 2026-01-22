@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Leaflet 지도가 화면에 꽉 차게 나오도록 하는 필수 설정 */
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-pin {
+  background: none !important;
+  border: none !important;
+}
